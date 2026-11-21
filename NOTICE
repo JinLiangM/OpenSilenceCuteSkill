@@ -1,0 +1,33 @@
+SilenceCute Skill
+Copyright (C) 2026 SilenceCute
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+----------------------------------------------------------------------
+第三方代码说明 / Third-party notices
+----------------------------------------------------------------------
+
+本项目的以下部分参考并移植了 LesRaisins Tactical Equipements（lrtactical）
+与 Timeless and Classics Zero（TACZ）的实现，两者均以 GNU GPL-3.0 发布：
+
+  * src/main/java/lol/silencecute/entity/throwable/LrtThrowableEntity.java
+  * src/main/java/lol/silencecute/entity/throwable/LrtStickyThrowableEntity.java
+  * src/main/java/lol/silencecute/client/render/item/C4Model.java
+  * src/main/java/lol/silencecute/client/render/entity/MagneticBombRenderer.java
+
+  - LesRaisins Tactical Equipements, Copyright (C) xjqsh
+  - Timeless and Classics Zero, Copyright (C) MCModderAnchor
+
+Minecraft is a trademark of Mojang Studios. This project is not
+affiliated with or endorsed by Mojang Studios or Microsoft.

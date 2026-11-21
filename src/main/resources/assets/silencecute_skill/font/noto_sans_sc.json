@@ -1,0 +1,31 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "silencecute_skill:font/noto_sans_sc_gui.png",
+      "height": 10,
+      "ascent": 8,
+      "chars": [
+        "\u0000!\"#$%&'()*+,-./",
+        "0123456789:;<=>?",
+        "@ABCDEFGHIJKLMNO",
+        "PQRSTUVWXYZ[\\]^_",
+        "`abcdefghijklmno",
+        "pqrstuvwxyz{|}~·",
+        "×…−▲▼✓、上下不与中任位使侦",
+        "偏充八关写冲冷击删判别到制前力加",
+        "动助却可右吐向启吸员哈喷四回复大",
+        "好威娜字定察小就左已币常干开式弹",
+        "当快恢情意所技投按控推改数新方无",
+        "更有未查标格模正气没测炸点理用疾",
+        "的盘看知磁秒空突管系统绪置能良萌",
+        "装设试详请赞跑车辅进退速锁锦键镜",
+        "闭问除露题鼠龙！（），：\u0000\u0000\u0000\u0000"
+      ]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+    "blend": { "func": "add", "srcrgb": "one", "dstrgb": "zero" },
+    "vertex": "silencecute_skill:blur_down",
+    "fragment": "silencecute_skill:blur_down",
+    "attributes": [ "Position", "UV0" ],
+    "samplers": [ { "name": "Sampler0" } ],
+    "uniforms": [
+        { "name": "uHalfTexelX", "type": "float", "count": 1, "values": [ 0.0 ] },
+        { "name": "uHalfTexelY", "type": "float", "count": 1, "values": [ 0.0 ] },
+        { "name": "uOffset", "type": "float", "count": 1, "values": [ 1.0 ] }
+    ]
+}

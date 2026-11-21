@@ -1,0 +1,12 @@
+M67 模型与动画来源说明
+
+来源：用户提供的 LesRaisins-Tactical-Equipements-1.20.1 源码压缩包。
+原工程：LesRaisins-Tactical-Equipements，原作者及贡献者保留其权利。
+许可：原工程附带 GNU General Public License version 3，全文见同目录
+LesRaisins-Tactical-Equipements-GPL-3.0.txt。
+
+本模组保留原始 m67_grenade_geo.json 和 m67_uv.png 的资源内容。
+m67_grenade.animation.json 基于原文件修改：r73 调整拉环后的温雷循环姿势，
+使右手与手雷退到镜头外、左手向前瞄准；r74 将左手瞄准位置下移 2 个模型单位，
+保留其朝向与缩放，其余动画片段保持原样。
+本模组的露娜输入控制、引信、伤害逻辑和独立动画采样接入不属于原版玩法。

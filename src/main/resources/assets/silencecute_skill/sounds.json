@@ -1,0 +1,207 @@
+{
+  "tempst_ult_start": {
+
+    "category": "player",
+
+    "sounds": [ { "name": "silencecute_skill:tempst_ult_start" } ]
+
+  },
+
+  "skill_ready": {
+
+    "category": "player",
+
+    "sounds": [ { "name": "silencecute_skill:skill_ready" } ]
+
+  },
+
+  "cant_use_skill": {
+
+    "category": "player",
+
+    "sounds": [ { "name": "silencecute_skill:cant_use_skill" } ]
+
+  },
+  "weilong_dash": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:weilong_dash" } ]
+  },
+  "weilong_passive": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:weilong_passive" } ]
+  },
+  "luna_enemy_analysis_where": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_enemy_analysis_where" } ]
+  },
+  "luna_enemy_analysis_watching": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_enemy_analysis_watching" } ]
+  },
+  "magnetic_bomb_explosion": {
+    "category": "block",
+    "sounds": [ { "name": "silencecute_skill:magnetic_bomb_explosion" } ]
+  },
+  "c4_boom": {
+    "category": "block",
+    "sounds": [ { "name": "silencecute_skill:c4_boom" } ]
+  },
+  "c4_ready": {
+    "category": "block",
+    "sounds": [ { "name": "silencecute_skill:c4_ready" } ]
+  },
+  "c4_in_hand": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:c4_in_hand" } ]
+  },
+  "luna_grenade_pin": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_grenade_pin" } ]
+  },
+  "luna_grenade_throw": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_grenade_throw" } ]
+  },
+  "luna_grenade_explosion": {
+    "category": "block",
+    "sounds": [ { "name": "silencecute_skill:luna_grenade_explosion" } ]
+  },
+  "luna_grenade_voice_1": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_grenade_voice_1" } ]
+  },
+  "luna_grenade_voice_2": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_grenade_voice_2" } ]
+  },
+  "luna_grenade_voice_3": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_grenade_voice_3" } ]
+  },
+  "luna_grenade_voice_4": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_grenade_voice_4" } ]
+  },
+  "luna_grenade_voice_5": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_grenade_voice_5" } ]
+  },
+  "luna_grenade_voice_6": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_grenade_voice_6" } ]
+  },
+  "luna_bow_draw": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_bow_draw" } ]
+  },
+  "luna_bow_bounce": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_bow_bounce" } ]
+  },
+  "luna_bow_shoot": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_bow_shoot" } ]
+  },
+  "luna_shock_discharge": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_shock_discharge" } ]
+  },
+  "luna_shock_voice_1": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_shock_voice_1" } ]
+  },
+  "luna_shock_voice_2": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_shock_voice_2" } ]
+  },
+  "luna_shock_voice_3": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_shock_voice_3" } ]
+  },
+  "luna_shock_voice_4": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_shock_voice_4" } ]
+  },
+  "luna_passive_hit": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:luna_passive_hit" } ]
+  },
+  "detecting": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:detecting" } ]
+  },
+  "let_me_detect_first": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:let_me_detect_first" } ]
+  },
+  "no_secrets_under_my_arrow": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:no_secrets_under_my_arrow" } ]
+  },
+  "wait_for_my_intel": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:wait_for_my_intel" } ]
+  },
+  "where_are_they_hiding": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:where_are_they_hiding" } ]
+  },
+  "armored_combatant_identified": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:armored_combatant_identified" } ]
+  },
+  "heavily_armored_enemy_detected": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:heavily_armored_enemy_detected" } ]
+  },
+  "heavily_armored": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:heavily_armored" } ]
+  },
+  "enemy_located": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:enemy_located" } ]
+  },
+  "enemy_right_there": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:enemy_right_there" } ]
+  },
+  "find_them": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:find_them" } ]
+  },
+  "found_them": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:found_them" } ]
+  },
+  "hostile_detected": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:hostile_detected" } ]
+  },
+  "hostiles_detected": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:hostiles_detected" } ]
+  },
+  "no_more_hiding": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:no_more_hiding" } ]
+  },
+  "target_located": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:target_located" } ]
+  },
+  "lunabigsound": {
+    "category": "player",
+    "sounds": [
+      { "name": "silencecute_skill:lunabigsound", "stream": true }
+    ]
+  },
+  "tempst_passive": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:tempst_passive" } ]
+  },
+  "tempst_dash": {
+    "category": "player",
+    "sounds": [ { "name": "silencecute_skill:tempst_dash" } ]
+  }
+}

@@ -1,0 +1,62 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.aliyun.com/repository/public' }
+        maven { url = 'https://mirror.sjtu.edu.cn/bmclapi/' }
+        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
+    }
+}
+
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+
+apply plugin: 'org.spongepowered.mixin'
+
+version = 'Private-Beta 1.0'
+group = 'lol.silencecute'
+base { archivesName = 'silencecute_skill' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            property 'mixin.config', 'silencecute.mixins.json'
+            mods {
+                silencecute_skill { source sourceSets.main }
+            }
+        }
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.0'
+    annotationProcessor files('lib/mixin-0.8.5-processor.jar')
+}
+
+mixin {
+    add sourceSets.main, 'silencecute.refmap.json'
+    config 'silencecute.mixins.json'
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+processResources {
+    def props = [mod_id: 'silencecute_skill', mod_name: '[锦良萌的三角洲干员]', mod_version: project.version,
+                 minecraft_version: '1.20.1', forge_version: '47.4.0']
+    inputs.properties props
+    filteringCharset = 'UTF-8'
+    filesMatching('META-INF/mods.toml') { expand props }
+}
+
+jar.finalizedBy('reobfJar')

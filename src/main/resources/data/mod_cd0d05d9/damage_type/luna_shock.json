@@ -1,0 +1,7 @@
+{
+  "message_id": "silencecute_skill.luna_shock",
+  "scaling": "never",
+  "exhaustion": 0.1,
+  "effects": "hurt",
+  "death_message_type": "default"
+}

@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8.5",
+    "package": "lol.silencecute.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "silencecute.refmap.json",
+    "mixins": [],
+    "client": [
+        "ChatComponentMixin",
+        "EntityRenderDispatcherRollMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 0
+    }
+}

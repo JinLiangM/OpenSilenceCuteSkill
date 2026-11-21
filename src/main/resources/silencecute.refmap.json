@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "lol/silencecute/mixin/ChatComponentMixin": {
+      "render(Lnet/minecraft/client/gui/GuiGraphics;III)V": "Lnet/minecraft/client/gui/components/ChatComponent;m_280165_(Lnet/minecraft/client/gui/GuiGraphics;III)V"
+    },
+    "lol/silencecute/mixin/EntityRenderDispatcherRollMixin": {
+      "render(Lnet/minecraft/world/entity/Entity;DDDFFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;m_114384_(Lnet/minecraft/world/entity/Entity;DDDFFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+    }
+  }
+}
